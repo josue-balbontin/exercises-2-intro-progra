@@ -1,4 +1,4 @@
-
+ 
 #include <cmath>
 #include <iostream>
 
@@ -15,7 +15,18 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+     string word;
+ for (int i=0;i<=s1.size();++i){
+        word=word+s1[i];
+    if(s1[i]==' '){
+        word[5]=']';
+        cout<<"["<<word<<endl;
+        word="";
+    }
+  }
+    cout<<"["<<word<<"]";
+
+
 }
 
 void exercise_3(string s1) {

@@ -15,19 +15,22 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-        string word;
-     int y;
+       string word;
+     int y=0;
  for (int i=0;i<=s1.size();++i){
-        word=word+s1[i];
+    word=word+s1[i];
     if(s1[i]==' '){
-        word[i]=']' ;
+        y=word.size();
+        word[y-1]=']' ;
         cout<<"["<<word<<endl;
         word="";
+        
     }
   }
     y=word.size();
     word[y-1]=']';
     cout<<'['<<word<<endl;
+
 
 }
 

@@ -21,7 +21,7 @@ if(s1==""){
     cout<<"";
 }
 else{
- for (int i=0;i<=s1.size();++i){
+ for (int i=0;i<s1.size();++i){
     word=word+s1[i];
     if(s1[i]==' '){
         y=word.size();
@@ -31,10 +31,9 @@ else{
         
     }
   }
-    y=word.size();
-    word[y-1]=']';
-    cout<<'['<<word<<endl;
+    cout<<'['<<word<<']'<<endl;
 }
+
 
 }
 

@@ -15,7 +15,6 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-    string s1="";
        string word;
      int y=0;
 if(s1==""){

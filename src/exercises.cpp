@@ -15,8 +15,13 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
+    string s1="";
        string word;
      int y=0;
+if(s1==""){
+    cout<<"";
+}
+else{
  for (int i=0;i<=s1.size();++i){
     word=word+s1[i];
     if(s1[i]==' '){
@@ -30,7 +35,7 @@ void exercise_2(string s1) {
     y=word.size();
     word[y-1]=']';
     cout<<'['<<word<<endl;
-
+}
 
 }
 

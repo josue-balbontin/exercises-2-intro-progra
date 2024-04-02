@@ -19,12 +19,12 @@ void exercise_2(string s1) {
  for (int i=0;i<=s1.size();++i){
         word=word+s1[i];
     if(s1[i]==' '){
-        word[5]=']';
+        word[i]=']';
         cout<<"["<<word<<endl;
         word="";
     }
   }
-    cout<<"["<<word<<"]";
+    cout<<'['<<word<<']'<<endl;
 
 
 }

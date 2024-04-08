@@ -122,14 +122,20 @@ void exercise_5(int n, int k) {
     }
 }
 int exercise_6(int n) {
-      string number=to_string(n);
+     string number=to_string(n);
     int number1=0;
     string c;
+    int negative;
     for(int i=0 ; i < number.size(); i++){
     c=number[i];
-    number1=number1 +stoi(c);
+    if(c =="-"){
+        negative=-1;
+        continue;
     }
-    return number1;
+    number1=number1*negative+stoi(c);
+    }
+    cout<<number1;
+
 }
 
 void exercise_7(int n) {

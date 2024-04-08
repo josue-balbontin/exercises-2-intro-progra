@@ -84,6 +84,12 @@ void exercise_5(int n, int k) {
     }
     cout<<space;
     for (int i=1;i<=k;i++){
+        if (i+1==k)
+         {  cout<<" "<<i+1<<" "<<endl;
+            break;
+         }
+         
+       
         if(i<10 ){
             if(i==1){
             cout<<" "<<i;
@@ -97,13 +103,7 @@ void exercise_5(int n, int k) {
         else if (i>=10){
               cout<<" "<<i;
               space=space+"   ";
-         }
-         if (i+1==k)
-         {  cout<<i+1<<" "<<endl;
-            break;
-         }
-         
-       
+         }       
         if((space.size())%20==0){
             if(i+1<10){
             i=i+1;

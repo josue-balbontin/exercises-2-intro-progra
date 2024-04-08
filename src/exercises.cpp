@@ -79,25 +79,40 @@ void exercise_4(int n) {
 void exercise_5(int n, int k) {
        string space;
     for(int i=1;i<n;i++){
-        space=" "+space;
+        space="   "+space;
     }
-    cout<<space+space+space;
+    cout<<space;
     for (int i=1;i<=k;i++){
-         if(i<10){
-             cout<<i<<"  ";
-         }
-        if (i>=10){
-              cout<<i<<" ";
-         }  
-            
-        if((space.size()+i)%7==0){
-            cout<<endl;
-            if(i+1<10){
-            cout<<i+1<<"  ";
-            i=i+1;
-            continue;
+        if(i<10 ){
+            if(i==1){
+            cout<<" "<<i;
+            space=space+"  ";
+            }
+            else{
+            cout<<"  "<<i;
+            space=space+"   ";
             }
         }
+        else if (i>=10){
+              cout<<" "<<i;
+              space=space+"   ";
+         }  
+       
+        if((space.size())%20==0){
+            if(i+1<10){
+            i=i+1;
+            cout<<endl<<" "<<i;
+            space=space+"  ";
+            }
+            else{
+            i=i+1;
+            cout<<endl<<i;
+            space=space+"  ";
+            }
+       
+        }
+      
+
       
     }
 }

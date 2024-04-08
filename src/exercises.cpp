@@ -148,7 +148,34 @@ for(int i=1;i<=n;i++){
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+      bool pal;
+    string s1;
+if(s==""){
+    cout<<"YES";
+}
+else{
+
+for(int i=0;i<s.size();i++){
+    if(s[i] !=' '){
+        s1=s1+s[i];
+    }
+}
+for(int i=0;i<s1.size();i++){
+        if(s1[i] == s1[s1.size()-1-i]){
+            pal=true;
+        }
+        else{
+        cout<<"NO";
+        pal=false;
+         break;
+        }
+}
+
+if(pal==true){
+    cout<<"YES";
+}
+}
+
 }
 
 void exercise_9(string s) {

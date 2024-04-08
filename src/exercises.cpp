@@ -125,7 +125,7 @@ int exercise_6(int n) {
      string number=to_string(n);
     int number1=0;
     string c;
-    int negative;
+    int negative=1;
     for(int i=0 ; i < number.size(); i++){
     c=number[i];
     if(c =="-"){

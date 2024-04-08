@@ -62,6 +62,7 @@ void exercise_4(int n) {
       int i=1;
     int numb=1; 
     do{
+      cin>>n;
         if(n<0){
             cout<<"El numero es negativo. Intentelo de nuevo"<<endl;
             continue;

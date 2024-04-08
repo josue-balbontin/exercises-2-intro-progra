@@ -72,9 +72,8 @@ void exercise_4(int n) {
                 numb=numb*i;
                 i++;
             }
+            cout<<numb<<endl;
         }
-    cout<<numb<<endl;
-  
 }
 
 void exercise_5(int n, int k) {

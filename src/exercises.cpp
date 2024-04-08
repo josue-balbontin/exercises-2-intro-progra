@@ -144,7 +144,7 @@ for(int i=1;i<=n;i++){
    
     resultado=resultado + pow((-1),i+1)/i;
 }
-    cout<<resultado;
+    cout<<resultado<<endl;
 }
 
 void exercise_8(string s) {

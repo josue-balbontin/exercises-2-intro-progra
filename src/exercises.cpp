@@ -50,7 +50,6 @@ void exercise_3(string s1) {
             break;
         }
         if(c>10){
-           cout<<"No cake :("<<endl;
             break;
         }
 

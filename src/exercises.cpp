@@ -122,7 +122,7 @@ void exercise_5(int n, int k) {
     }
 }
 int exercise_6(int n) {
-     string number=to_string(n);
+    string number=to_string(n);
     int number1=0;
     string c;
     int negative=1;

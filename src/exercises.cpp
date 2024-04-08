@@ -99,8 +99,8 @@ void exercise_5(int n, int k) {
               space=space+"   ";
          }       
                
-        if (i+1==k)
-         {  cout<<" "<<i+1<<" "<<endl;
+        if (i==k)
+         {  cout<<" "<<endl;
             break;
          }
         if((space.size())%20==0){

@@ -77,17 +77,28 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-     string space;
+       string space;
     for(int i=1;i<n;i++){
         space=" "+space;
     }
-    cout<<space+space;
+    cout<<space+space+space;
     for (int i=1;i<=k;i++){
-            cout<<" "<<i;
+         if(i<10){
+             cout<<i<<"  ";
+         }
+        if (i>=10){
+              cout<<i<<" ";
+         }  
+            
         if((space.size()+i)%7==0){
             cout<<endl;
+            if(i+1<10){
+            cout<<i+1<<"  ";
+            i=i+1;
+            continue;
+            }
         }
-            
+      
     }
 }
 

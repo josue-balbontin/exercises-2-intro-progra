@@ -134,7 +134,7 @@ int exercise_6(int n) {
     }
     number1=number1*negative+stoi(c);
     }
-    cout<<number1;
+    return number1;
 
 }
 

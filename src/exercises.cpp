@@ -139,7 +139,12 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+   double resultado=0;
+for(int i=1;i<=n;i++){
+   
+    resultado=resultado + pow((-1),i+1)/i;
+}
+    cout<<resultado;
 }
 
 void exercise_8(string s) {

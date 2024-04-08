@@ -98,7 +98,7 @@ void exercise_5(int n, int k) {
               cout<<" "<<i;
               space=space+"   ";
          }
-         if (i==k)
+         if (i+1==k)
          {
             break;
          }

@@ -39,6 +39,24 @@ else{
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+      int c;
+    for(int i=0 ; i<s1.size();i++){
+        if(s1[i]=='1'){
+            cout<<"Om-nom-nom :P"<<endl;
+            c++;
+        }
+        if(s1[i]=='0'){
+            cout<<"Sin pastel :("<<endl;
+            break;
+        }
+        if(c>10){
+           cout<<"Sin pastel :("<<endl;
+            break;
+        }
+
+    }
+
+
 }
 
 void exercise_4(int n) {

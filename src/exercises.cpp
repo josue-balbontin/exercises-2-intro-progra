@@ -122,8 +122,14 @@ void exercise_5(int n, int k) {
     }
 }
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
-  return 0;
+      string number=to_string(n);
+    int number1=0;
+    string c;
+    for(int i=0 ; i < number.size(); i++){
+    c=number[i];
+    number1=number1 +stoi(c);
+    }
+    return number1;
 }
 
 void exercise_7(int n) {

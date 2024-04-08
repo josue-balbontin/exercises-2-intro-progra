@@ -39,7 +39,6 @@ else{
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-          getline(cin,s1);
       int c;
     for(int i=0 ; i<s1.size();i++){
         if(s1[i]=='1'){
@@ -47,11 +46,11 @@ void exercise_3(string s1) {
             c++;
         }
         if(s1[i]=='0'){
-            cout<<"Sin pastel :("<<endl;
+            cout<<"No cake :("<<endl;
             break;
         }
         if(c>10){
-           cout<<"Sin pastel :("<<endl;
+           cout<<"No cake :("<<endl;
             break;
         }
 

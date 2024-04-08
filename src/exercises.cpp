@@ -39,6 +39,7 @@ else{
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+          getline(cin,s1);
       int c;
     for(int i=0 ; i<s1.size();i++){
         if(s1[i]=='1'){

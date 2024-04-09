@@ -234,7 +234,15 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+      float U0=1,V=1,U;
+    U=U0;
+    for(int i=0;i<10;i++){
+        cout<<"U"<<i+1<<" = "<<U0/(i+1)<<" V"<<i+1<<" = "<<V<<endl;
+        U0=U0/(i+1);
+        V=U;
+       
+    }
+
 }
 
 long exercise_13(int n, int k) {

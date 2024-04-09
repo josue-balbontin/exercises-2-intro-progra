@@ -223,7 +223,14 @@ return MCD;
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+     float U0=1;
+    cout<<"U0 = "<<U0<<endl;
+    for(int i=0;i<10;i++){
+        cout<<"U"<<i+1<<" = "<<U0/(i+1)<<endl;
+        U0=U0/(i+1);
+       
+    }
+
 }
 
 void exercise_12() {

@@ -203,14 +203,22 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-      int MCD=1;
+    int MCD=1;
+if(a==0){
+    MCD=b;
+}
+else if (b==0){
+    MCD=a;
+}
+else{
 for(int i=2; i<=a && i<=b;i++){
     if(a%i==0 && b%i ==0){
         MCD=i;
     }
 }
-
+}
 return MCD;
+
 
 }
 

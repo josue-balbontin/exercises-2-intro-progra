@@ -148,10 +148,10 @@ for(int i=1;i<=n;i++){
 }
 
 void exercise_8(string s) {
-      bool pal;
+    bool pal;
     string s1;
 if(s==""){
-    cout<<"YES";
+    cout<<"YES"<<endl;
 }
 else{
 
@@ -165,16 +165,17 @@ for(int i=0;i<s1.size();i++){
             pal=true;
         }
         else{
-        cout<<"NO";
+        cout<<"NO"<<endl;
         pal=false;
          break;
         }
 }
 
 if(pal==true){
-    cout<<"YES";
+    cout<<"YES"<<endl;
 }
 }
+
 
 }
 

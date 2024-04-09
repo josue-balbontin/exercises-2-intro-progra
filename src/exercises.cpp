@@ -277,7 +277,16 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+  int resto=0;
+string binari;
+while(decimal >=1 ){
+    resto=decimal%2;
+    decimal=decimal/2;
+    binari += to_string(resto);
+}
+for(int i=0;i<binari.size();i++){
+    cout<<binari[binari.size()-1-i];
+}
 }
 
 void exercise_16(int divident, int divider) {

@@ -254,8 +254,26 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+     string ns=to_string(n);
+    bool pal;
+    for(int i=0;i<ns.size();i++){
+        if(ns[i]==ns[ns.size()-1-i]){
+            pal=true;
+        }
+        else{
+            pal=false;
+            break;
+        }
+    }
+    if(pal==true){
+       return "Es palindrome";
+    }
+    else{
+       return "No es palindrome";
+    }
+
+
+
 }
 
 void exercise_15(int decimal) {

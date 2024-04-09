@@ -287,6 +287,7 @@ while(decimal >=1 ){
 for(int i=0;i<binari.size();i++){
     cout<<binari[binari.size()-1-i];
 }
+cout<<endl;
 }
 
 void exercise_16(int divident, int divider) {

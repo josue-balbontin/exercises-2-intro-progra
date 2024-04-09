@@ -203,8 +203,15 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+      int MCD=1;
+for(int i=2; i<=a && i<=b;i++){
+    if(a%i==0 && b%i ==0){
+        MCD=i;
+    }
+}
+
+return MCD;
+
 }
 
 void exercise_11() {

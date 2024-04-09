@@ -180,7 +180,26 @@ if(pal==true){
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+     int efe=0;
+    string ubi;
+  for(int i=0;i<s.size();i++){
+    if(s[i]=='f'){
+        efe=efe+1;
+        if(efe==2){
+            ubi=ubi+to_string(i);
+        }
+    }
+  }
+  if(efe==0){
+    cout<<-2<<endl;
+  }
+  else if (efe==1){
+    cout<<-1<<endl;
+  }
+  else{
+    cout<<ubi<<endl;
+  }
+
 }
 
 int exercise_10(int a, int b) {

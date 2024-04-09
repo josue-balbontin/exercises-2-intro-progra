@@ -277,6 +277,7 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
+int resto=0;
 string binari;
 if(decimal==0){
     cout<<0<<endl;
@@ -292,6 +293,7 @@ for(int i=0;i<binari.size();i++){
 }
 cout<<endl;
 }
+
 
 }
 

@@ -314,7 +314,23 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+     int i=2 ,num2=1,d=2;
+    cout<<2<<" ";
+   while(n>=i){
+    num2=2;
+        while(d>num2){
+            if(d%num2==0){
+                break;
+            }
+            else if(d==num2+1){
+                cout<<d<<" ";
+                i++;
+            }
+            num2++;
+        }
+    d++;
+   }
+
 }
 
 void exercise_18_19(int debut, int fin) {

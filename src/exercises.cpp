@@ -314,7 +314,8 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-        if(n==1){
+    int i=2 ,num2=1,d=2;
+    if(n==1){
         cout<<"";
     }
     else{

@@ -314,7 +314,10 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-     int i=2 ,num2=1,d=2;
+        if(n==1){
+        cout<<"";
+    }
+    else{
     cout<<2<<" ";
    while(n>=i){
     num2=2;
@@ -330,6 +333,7 @@ void exercise_17(int n) {
         }
     d++;
    }
+}
 
 }
 

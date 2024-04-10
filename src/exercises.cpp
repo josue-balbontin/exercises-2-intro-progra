@@ -299,8 +299,8 @@ cout<<endl;
 
 void exercise_16(int divident, int divider) {
       int cociente=0;
-    while(divident>=divide){
-        divident=divident-divide;
+    while(divident>=divider){
+        divident=divident-divider;
         cociente++;
 
     }

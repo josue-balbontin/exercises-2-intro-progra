@@ -350,7 +350,7 @@ void exercise_18_19(int debut, int fin) {
          while(debut<=fin ){
             if(x==0){
                 c++;
-                cout<<c<<" -> "<<contador<<endl;
+                cout<<c<<"->"<<contador<<endl;
                 contador=0;
                 debut=debut+1;
                 x=debut;
